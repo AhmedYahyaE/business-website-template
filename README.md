@@ -1,4 +1,4 @@
-# Business/Company Website Template
+# Business/Company Website Template Design
 
 A Responsive business/company website template. This design is built using HTML, CSS, Bootstrap, JavaScript, jQuery and some CSS and JavaScript libraries and plugins like wow.js, Font Awesome, NiceScroll, Respond.js, HTML5shiv, ...
 
