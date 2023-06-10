@@ -1,0 +1,302 @@
+body {padding-top: 70px; overflow: hidden}
+h1, h2, h3, h4, h5, .lead {font-family: 'Droid Sans', sans-serif}
+/* Tool Box Start */
+.option-box {position: fixed; top: 100px; left: 0; z-index: 9999}
+.option-box .color-option {float: left; background: #333; color: #fff; padding: 10px; width: 200px; display: none}
+.option-box .color-option ul li {width: 20px; height: 20px; display: inline-block; margin-right: 3px; cursor: pointer}
+.option-box .gear-check {padding: 5px; color: #fff; cursor: pointer}
+/* Tool Box End */
+
+/* Overriding Bootstrap Start */
+
+
+/* Main Navbar Start */
+.navbar {min-height: 70px}
+/* Active Link */
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus          {background-color: #E41B17}
+/* Navbar Link */
+.navbar-inverse .navbar-nav > li > a {color: #BBB; padding-top: 25px; padding-bottom: 25px; font-size: 16px}
+/* Brand Name */
+.navbar-inverse .navbar-brand {color: #BBB; font-size: 30px; line-height: 40px}
+.navbar-inverse .navbar-brand span {color: #E41B17}
+/* Dropdown Menu */
+.dropdown-menu {background-color: #333; min-width: 200px}
+.navbar-right .dropdown-menu {left: 0; right: auto}
+
+.dropdown-menu > li > a {
+    color: #FFF; 
+    padding: 6px 20px;
+    -webkit-transition: padding .5s ease;
+    -moz-transition: padding .5s ease;
+    -o-transition: padding .5s ease;
+    transition: padding .5s ease
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus       {color: #FFF; padding-left: 25px}
+/* Divider */
+.dropdown-menu .divider {background-color: #871818}
+/* Navbar Toggle */
+.navbar-toggle {margin-top: 18px}
+/* Main Navbar End */
+
+
+
+/* Carousel (Slideshow) Start */
+.carousel-caption {bottom: 70px; background:rgba(3,3,3,.3); padding-right: 20px; padding-left: 20px}
+.carousel-indicators {bottom: 0}
+.carousel-indicators li {height: 15px; width: 15px; border: 1px solid #EEE}
+.carousel-indicators .active {height: 17px; width: 17px}
+.carousel-inner > .item > img {width: 100%}
+/* Carousel (Slideshow) End */
+
+
+
+/* About Section Start */
+.about {padding-top: 60px; padding-bottom: 60px}
+.about .lead {color: #888; font-size: 25px; margin-top: 15px}
+.about h1 {font-weight: bold}
+/* About Section End */
+
+
+
+/* Features Start */
+.features {background: #EEE; padding-top: 50px; padding-bottom: 50px}
+.features .feat {margin-bottom: 30px}
+.features .feat span.glyphicon {font-size: 25px; margin-bottom: 10px; color: #666}
+.features .feat p {line-height: 2em}
+/* Features End */
+
+
+
+/* Testimonials Start */
+.testimonials {padding-top: 50px; padding-bottom: 50px}
+.testimonials .lead {line-height: 2em; margin-bottom: 10px}
+.testimonials span {font-size: 18px; font-weight: bold}
+.testimonials .carousel-inner {min-height: 160px}
+.testimonials .carousel-indicators {position: static; width: 100%; margin-left: auto; padding-top: 20px}/* Resetting the Carousel indicators properties */
+.testimonials .carousel-indicators li {text-indent: 0; margin: 5px; width: 80px; height: 80px; opacity: .4; border: 3px solid #FFF; border-radius: 50%; overflow: hidden;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 2s ease
+}
+.testimonials .carousel-indicators li.active {width: 80px; height: 80px; opacity: 1; background: none}
+.testimonials .carousel-indicators li img {max-width: 100%}
+/* Testimonials End */
+
+
+
+/* Price Table Start */
+.price-table {background: #EEE; padding-top: 40px; padding-bottom: 40px}
+.price-table h1 {margin-bottom: 40px}
+.price-table .price-box {background: #FFF; padding: 10px; border: 1px solid #DDD; margin-bottom: 15px}
+.price-table .price-box:hover p {
+    border: 2px solid #DFDFDF;
+    -webkit-transform: scale(1.1,1.1) rotate(360deg);
+    -moz-transform: scale(1.1,1.1) rotate(360deg);
+    -o-transform: scale(1.1,1.1) rotate(360deg);
+    transform: scale(1.1,1.1) rotate(360deg)
+}
+.price-table .price-box h2 {margin: 5px 0 15px}
+.price-table .price-box p {font-size: 35px; font-weight: bold; color: #666; width: 100px; height: 100px; background: #F3F3F3; line-height: 100px; border-radius: 50%; border: 2px solid #FFF;
+                                            -webkit-transition-duration: .7s;
+                                            -moz-transition-duration: .7s;
+                                            -o-transition-duration: .7s;
+                                            transition-duration: .7s                       
+}
+.price-table .price-box ul {line-height: 250%; font-size: 18px}
+.price-table .price-box a {margin-bottom: 5px}
+/* Price Table End */
+
+
+
+/* Our Team Start */
+.our-team {background: url("../images/team.jpg") no-repeat center center fixed; min-height: 600px;
+                      -webkit-background-size: cover;
+                      -moz-background-size: cover;
+                      -o-background-size: cover;
+                      background-size: cover
+}
+.our-team .team {background: rgba(2,2,2,.8); color: #FFF; min-height: 600px; padding-top: 40px; padding-bottom: 40px}
+.our-team .person {margin-bottom: 40px}
+/* Our Team End */
+
+
+
+/* Subscribe Start */
+.subscribe {padding-top: 40px; padding-bottom: 70px; background: #EEE}
+.subscribe .h1 {color: #888; letter-spacing: 2px; margin-bottom: 20px}
+.subscribe p {margin-bottom: 30px}
+.subscribe .form-control {border-radius: 0; margin-right: -5px; width: 300px}
+.subscribe button {border-radius: 0}
+/* Subscribe End */
+
+
+
+/* Statistics Start */
+.statistics {background: url('../images/stats.jpg') no-repeat center center fixed; min-height: 300px;
+                        -webkit-background-size: cover;
+                        -moz-background-size: cover;
+                        -o-background-size: cover;
+                        background-size: cover
+}
+.statistics .data {background-color: rgba(2,2,2,.8); min-height: 300px; color: #B6B5B5; padding-top: 40px; padding-bottom: 70px}
+.statistics .stats {margin-bottom: 30px; -webkit-transition: all .5s ease-in-out;
+                                         -moz-transition: all .5s ease-in-out;
+                                         -o-transition: all .5s ease-in-out;
+                                         transition: all .5s ease-in-out
+}
+.statistics .stats:hover {color: #FFF}
+.statistics p {font-size: 60px; font-weight: 800; margin-bottom: 0}
+.statistics span {font-size: 18px}
+/* Statistics End */
+
+
+
+/* Our Skills Start */
+.our-skills {padding-top: 40px; padding-bottom: 70px}
+.our-skills h3 {font-weight: bold; margin-top: 0}
+.our-skills .progress {height: 36px}
+.our-skills .progress-bar {line-height: 36px; font-size: 15px; font-weight: bold; text-align: left; text-indent: 10px}
+/* Our Skills End */
+
+
+
+/* Contact Us Start */
+.contact-us {background: url('../images/contact-us.jpg') no-repeat center center fixed; min-height: 300px;
+                        -webkit-background-size: cover;
+                        -moz-background-size: cover;
+                        -o-background-size: cover;
+                        background-size: cover}
+.contact-us .fields {background: rgba(9,9,9,.8); min-height: 300px; color: #DDD; padding-top: 40px; padding-bottom: 40px}
+.contact-us p {margin-bottom: 40px}
+.contact-us textarea {height: 108px}
+.contact-us input[type=text], .contact-us textarea {background: rgba(82,78,78,.5); color: #FFF; border: none}
+/* Contact Us End */
+
+
+
+/* Our Clients Start */
+.our-clients {background: #EEE; padding-top: 20px; padding-bottom: 20px}
+.our-clients img {opacity: .4; filter: alpha(opacity=40); margin-top: 20px; margin-bottom: 20px;
+                 -webkit-transition: all .7s ease-in-out;
+                 -moz-transition: all .7s ease-in-out;
+                 -o-transition: all .7s ease-in-out;
+                 transition: all .7s ease-in-out
+}
+.our-clients img:hover {opacity: 1}
+/* Our Clients End */
+
+
+
+/* Footer Start */
+.footer {background: #111; color: #aaa; padding-top: 10px}
+.footer a {color: #aaa}
+.footer a:hover {color: #FFF}
+.footer h3 {letter-spacing: 1px; margin: 30px 0 20px}
+.footer .three-columns {overflow: hidden}
+.footer .three-columns li {width: 33.3333%; float: left; padding: 5px 0}
+.footer .social-list {overflow: hidden; margin: 20px 0 10px}
+.footer .social-list li {float: left; margin-right: 3px; opacity: .7; filter: alpha(opacity=70)}
+.footer .social-list li:hover {opacity: 1;
+                                        -webkit-transition: all .7s ease-in-out;
+                                        -moz-transition: all .7s ease-in-out;
+                                        -o-transition: all .7s ease-in-out;
+                                        transition: all .7s ease-in-out
+}
+.footer .img-thumbnail {background: rgba(0,0,0,.2); border: 1px solid #444; margin-bottom: 5px}
+.footer .copyright {background: #333; color: #aaa; padding: 15px 0; margin-top: 30px; font-size: 18px}
+/* Footer End */
+
+
+
+/* Preloading Screen Start */
+.loading-overlay {background: #222; color: #fff; position: fixed; left: 0; top: 0; width: 100%; width: 100%; height: 100%; z-index: 99999}
+                    /* ٍSpinner */
+                    .spinner {
+                      width: 60px;
+                      height: 60px;
+
+                      position: relative;
+                      margin: 300px auto;
+                    }
+
+                    .double-bounce1, .double-bounce2 {
+                      width: 100%;
+                      height: 100%;
+                      border-radius: 50%;
+                      background-color: #fff;
+                      opacity: 0.6;
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+
+                      -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+                      animation: sk-bounce 2.0s infinite ease-in-out;
+                    }
+
+                    .double-bounce2 {
+                      -webkit-animation-delay: -1.0s;
+                      animation-delay: -1.0s;
+                    }
+
+                    @-webkit-keyframes sk-bounce {
+                      0%, 100% { -webkit-transform: scale(0.0) }
+                      50% { -webkit-transform: scale(1.0) }
+                    }
+
+                    @keyframes sk-bounce {
+                      0%, 100% { 
+                        transform: scale(0.0);
+                        -webkit-transform: scale(0.0);
+                      } 50% { 
+                        transform: scale(1.0);
+                        -webkit-transform: scale(1.0);
+                      }
+                    }
+                    /* Spinner */
+/* Preloading Screen End */
+
+
+
+/* SCROLL TO TOP Button Start */
+#scroll-top {width: 50px; height: 40px; color: #ddd; background-color: #272727; text-align: center; position: fixed; right: 15px; bottom: 10px; z-index: 9999; display: none; cursor: pointer}
+#scroll-top:hover {background-color: #444}
+/* SCROLL TO TOP Button End */
+
+
+/* Overriding Bootstrap End */
+
+
+
+/* Note: Meida Query is in a standalone sheet */
+
+
+/* Grouping Similar Codes Start */
+.our_team, .statistics, .contact-us {
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+
+.our_team .h1, .statistics .h1, .features .h1,
+.our-skills .h1, .price_table .h1 {
+    margin-bottom:50px
+}
+
+.social-list li, .our-clients img, .statistics .stats, .price_table .price_box p,.testimonials .carousel-indicators li {
+    -webkit-transition:all .7s ease-in-out;
+    -moz-transition:all .7s ease-in-out;
+    -o-transition:all .7s ease-in-out;
+    transition:all .7s ease-in-out;
+}
+
+.statistics .data, .our_team .team, .contact-us .fields,
+.our-skills, .price_table, .testimonials, .subscribe, .features, .about {
+    padding-top:40px;padding-bottom:60px
+}
+/* Grouping Similar Codes End */
