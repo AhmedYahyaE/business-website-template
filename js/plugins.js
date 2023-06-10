@@ -12,12 +12,12 @@ $(document).ready(function () {
         interval: 2000
     });
 
-    // Show Color Option Box when clicking on the gear
+    // Show Color Options Box when clicking on the gear
     $('.gear-check').click(function () {
         $('.color-option').fadeToggle();
     });
 
-    // Change Theme Color on clicking
+    // Change Theme Color on clicking on the gear button
     var colorLi = $('.color-option ul li');
 
     colorLi
@@ -29,7 +29,7 @@ $(document).ready(function () {
     colorLi.click(function () {
         // console.log($(this).attr('data-value'));
         // console.log($('link[href*="theme"]'));
-        $('link[href*="theme"]').attr('href', $(this).attr('data-value'));
+        $('link[href*="theme"]').attr('href', $(this).attr('data-value')); // CSS [attribute*=value] Selector: https://www.w3schools.com/cssref/sel_attr_contain.php
     });
     
     
